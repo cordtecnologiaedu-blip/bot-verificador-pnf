@@ -19,7 +19,7 @@ def run_web():
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- DATOS CONFIGURADOS OFICIALES ---
-TOKEN_BOT = "8846578757:AAESE81HBDL4b4f9SdqK-hhv131OlwNsoY0"
+TOKEN_BOT = "8846578757:AAHMbQ8hkaotdRAHAkQpQZCYQ6YxvYMZKv0"
 URL_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT5Nn1xZ1I6K3U8A0jO9sX-lK9wKz_s2J/pub?output=csv"
 
 async def handle_join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
